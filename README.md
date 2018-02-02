@@ -2,7 +2,7 @@
 
 author: Nils Küchler
 
-contact: tnomokon@uni-koeln.de
+contact: rgierens@uni-koeln.de
 
 # what does the software?
 the software reads data recorded with the FMCW-radar of RPG. RPG stores the data in binary format. the software converts it into netcdf4 format. additionally some reprocessing of the data can be applied including dealasing the radar spectra and the calculation of higher moments. the software can handle 3 different file formats. i) binary files created with RPG software version 1. ii) netcdf files created from i) where no additional processing has been applied. iii) binary files created with RPG software version 2. this software automatically identifies the file type and adjusts reprocessing automatically and creates a unified netcdf file for any of the file types i) to iii).
